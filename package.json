@@ -1,0 +1,22 @@
+{
+  "name": "bridge-chart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "serve": "node .",
+    "build_serve": "npm run build && npm run serve"
+  },
+  "author": "yanghe",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/serialport": "^8.0.2",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@types/node": "^16.11.4",
+    "serialport": "^9.2.5",
+    "socket.io-client": "^4.3.2"
+  }
+}
